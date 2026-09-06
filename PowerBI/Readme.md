@@ -1,22 +1,25 @@
-# Power BI Dashboard
+# Power BI
 
-This folder contains the Power BI dashboard developed for the Financial Transaction Risk & Fraud Analytics project.
+This folder contains the Power BI development documentation for the Financial Transaction Risk & Fraud Analytics project.
 
-## Dashboard Overview
+## Power BI Report
 
-The dashboard provides an interactive view of financial transaction activity, fraud patterns, transaction risk, high-value transactions, and account-level fraud concentration.
+The Power BI report was developed to analyze financial transaction behavior, fraud patterns, risk indicators, high-value transactions, balance anomalies, and account-level fraud concentration.
 
-The report is designed to support fraud-risk monitoring and business decision-making through interactive KPIs, filters, charts, and analytical tables.
+## Key Analysis Areas
 
----
+- Transaction Volume Analysis
+- Transaction Amount Analysis
+- Fraud Transaction Analysis
+- Fraud Amount Analysis
+- Fraud Rate Analysis
+- High-Value Transaction Analysis
+- Risk Category Analysis
+- Balance Anomaly Analysis
+- Origin Account Fraud Concentration
+- Destination Account Fraud Concentration
 
-## Dashboard Pages
-
-### 01 — Overview
-
-The Overview page provides a consolidated view of transaction activity and fraud indicators.
-
-#### Key KPIs
+## Key KPIs
 
 - Total Transactions
 - Total Amount
@@ -25,64 +28,13 @@ The Overview page provides a consolidated view of transaction activity and fraud
 - Overall Fraud Rate
 - High-Value Fraud Rate
 
-#### Key Visuals
-
-- Transactions by Type
-- Transaction Volume by Type
-- Fraud Amount by Transaction Type
-- Transactions Over Time
-- Fraud Rate by Risk Category
-- Fraud Transactions by Balance Anomaly
-- Top 5 Origin Accounts by Fraud Amount
-- Top 5 Destination Accounts by Fraud Amount
-- High-Value Fraud Transactions
-
----
-
-### 02 — Insights & Recommendations
-
-The second page focuses on interpreting the analytical findings and converting them into business-oriented actions.
-
-#### Key Analysis Areas
-
-- Fraud Risk Patterns
-- High-Value Transaction Risk
-- Transaction-Type Risk
-- Balance Anomalies
-- Risk Category Analysis
-- Account-Level Fraud Concentration
-- High-Risk Transactions
-
-#### Business Recommendations
-
-- Monitor high-risk transaction types.
-- Prioritize high-value transactions for additional review.
-- Investigate accounts with significant fraud contribution.
-- Strengthen balance consistency checks.
-- Use risk scoring to prioritize suspicious transactions.
-- Continuously monitor fraud indicators through BI reporting.
-
----
-
-## Interactive Features
-
-The dashboard includes interactive filtering through:
-
-- Step Range
-- Transaction Type
-- Risk Category
-
-Users can apply filters to analyze specific transaction segments and risk groups.
-
----
-
 ## Power BI Techniques Used
 
-### Data Transformation
+### Power Query
 
-- Power Query
 - Data type validation
 - Data transformation
+- Data cleaning
 - Feature-based analysis
 
 ### DAX
@@ -92,10 +44,10 @@ Users can apply filters to analyze specific transaction segments and risk groups
 - Fraud amount calculations
 - High-value fraud analysis
 - Risk-based calculations
-- Account-level ranking
+- Account-level analysis
 - Top 5 account analysis
 
-### Visualization
+### Visualizations
 
 - KPI Cards
 - Donut Charts
@@ -104,28 +56,32 @@ Users can apply filters to analyze specific transaction segments and risk groups
 - Tables
 - Slicers
 
----
+## Interactive Filters
 
-## Dashboard File
+The report includes interactive filtering using:
 
-`Financial_Transaction_Risk_Fraud_Analytics.pbix`
+- Step Range
+- Transaction Type
+- Risk Category
 
----
+## Dashboard Pages
 
-## Dashboard Preview
+### Page 01 — Overview
 
-### Overview
+Provides a consolidated view of transaction activity, fraud indicators, risk categories, balance anomalies, and account-level fraud concentration.
 
-![Dashboard Overview](Dashboard_Overview.png)
+### Page 02 — Insights & Recommendations
 
-### Insights & Recommendations
+Converts the analytical findings into business insights, recommendations, priorities, and suggested actions.
 
-![Insights & Recommendations](Dashboard_Insights_Recommendations.png)
+## Report File
 
----
+The `.pbix` file is not included in this repository due to its large file size.
+
+The dashboard screenshots are available in the `Dashboard` folder.
 
 ## Purpose
 
-The dashboard transforms transaction-level financial data into actionable risk insights, helping users identify potential fraud patterns, prioritize high-risk transactions, and understand where fraud exposure is concentrated.
+The Power BI report transforms transaction-level financial data into an interactive business intelligence solution for monitoring potential fraud patterns and transaction risk.
 
-> **Note:** The risk scoring framework is rule-based and intended for analytical prioritization. Risk categories should not be interpreted as confirmed fraud without appropriate validation.
+> Note: The risk scoring framework is rule-based and intended for analytical prioritization. Risk categories should not be interpreted as confirmed fraud without appropriate validation.
